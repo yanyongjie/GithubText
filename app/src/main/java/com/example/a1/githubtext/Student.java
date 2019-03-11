@@ -19,4 +19,9 @@ public class Student {
     public void setAge(String age) {
         this.age = age;
     }
+
+    public Student(String name, String age) {
+        this.name = name;
+        this.age = age;
+    }
 }
